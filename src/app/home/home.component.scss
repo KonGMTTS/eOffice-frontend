@@ -1,0 +1,365 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --birch: #363325;
+  --dove-gray: #707070;
+  --licorice: #141311;
+ 
+  --font-size-l: 50px;
+  --font-size-m: 26px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-licorice-26px {
+  color: var(--licorice);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}
+
+
+/* screen - home */
+
+.home {
+  background-color: transparent;
+  border: 1px none;
+  cursor: pointer;
+  height: 844px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.home .path-106-C61RwL {
+  background-color: transparent;
+  height: 844px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 134px;
+}
+
+.home .rectangle-162-C61RwL {
+  background-color: #0707eced;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 844px;
+  left: 134px;
+  mix-blend-mode: normal;
+  opacity: 0.39;
+  position: absolute;
+  top: 0px;
+  width: 133px;
+}
+
+.home .rectangle-163-C61RwL {
+  background-color: #07c5eced;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 844px;
+  left: 267px;
+  mix-blend-mode: normal;
+  opacity: 0.39;
+  position: absolute;
+  top: 0px;
+  width: 129px;
+}
+
+.home .text_label-C61RwL {
+  -webkit-text-stroke: 1px #16366e;
+  background-color: transparent;
+  color: #232724;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 32px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 397px;
+  width: auto;
+}
+
+.home .rectangle-3-C61RwL {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 794px;
+  width: 390px;
+}
+
+.home .menu_fill0_wght400_grad0_opsz48-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 48px;
+  left: 336px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 794px;
+  width: 48px;
+}
+
+.home .icon-home-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 48px;
+  left: 3px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 795px;
+  width: 48px;
+}
+
+.home .assistant_direction_-C61RwL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 48px;
+  left: 113px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 795px;
+  width: 48px;
+}
+
+.home .mark_as_unread_fill0-C61RwL {
+  background-color: transparent;
+  height: 48px;
+  left: 239px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 796px;
+  width: 48px;
+}
+
+.home .armeo_forces_logo-300x300-2-C61RwL {
+  background-color: transparent;
+  height: 272px;
+  left: 59px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 74px;
+  width: 272px;
+}
+
+.home .images-C61RwL {
+  background-color: transparent;
+  height: 65px;
+  left: 163px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 624px;
+  width: 65px;
+}
+</style></head><body style="margin: 0;"><input type="hidden" id="anPageName" name="page" value="home"><div class="container-center-horizontal"><div class="home screen " data-id="1:3" onclick="window.open('javascript:history.back()', '_self');"><img class="path-106-C61RwL" data-id="1:5" id="path-106" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/path-106.svg" alt="Path 106"><div class="rectangle-162-C61RwL" data-id="1:6"></div><div class="rectangle-163-C61RwL" data-id="1:7"></div><h1 class="text_label-C61RwL" data-id="1:8">ศูนย์รักษาความปลอดภัย<br>กองบัญชาการ<br>กองทัพไทย</h1><div class="rectangle-3-C61RwL" data-id="1:9"></div><a href="main-menu" onclick="window.event.stopPropagation()"><img class="menu_fill0_wght400_grad0_opsz48-C61RwL" data-id="1:10" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/menu-fill0-wght400-grad0-opsz48@2x.png" alt="menu_FILL0_wght400_GRAD0_opsz48"></a><a href="#path-106" onclick="window.event.stopPropagation()"><img class="icon-home-C61RwL" data-id="1:11" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/home-fill0-wght400-grad0-opsz48@2x.png" alt="icon-home"></a><a href="splash#signin" data-turbolinks="false" onclick="window.event.stopPropagation()"><img class="assistant_direction_-C61RwL" data-id="1:12" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/assistant-direction-fill0-wght400-grad0-opsz48@2x.png" alt="assistant_direction_FILL0_wght400_GRAD0_opsz48"></a><img class="mark_as_unread_fill0-C61RwL" data-id="1:13" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/mark-as-unread-fill0-wght400-grad0-opsz48@2x.png" alt="mark_as_unread_FILL0_wght400_GRAD0_opsz48"><img class="armeo_forces_logo-300x300-2-C61RwL" data-id="1:14" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/armeo-forces-logo-300x300-2-2@2x.png" alt="Armeo_forces_logo-300x300-2"><img class="images-C61RwL" data-id="1:15" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/images-1@2x.png" alt="images"></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script></body></html>
