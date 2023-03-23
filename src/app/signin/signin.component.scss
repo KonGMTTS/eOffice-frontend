@@ -1,0 +1,1153 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --birch: #363325;
+  --dove-gray: #707070;
+  --licorice: #141311;
+ 
+  --font-size-l: 50px;
+  --font-size-m: 26px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-licorice-26px {
+  color: var(--licorice);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+}
+
+
+/* screen - splash */
+
+.splash {
+  background-color: #3b6d9f;
+  border: 1px none;
+  cursor: pointer;
+  height: 844px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.splash .scroll-group-1-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 844px;
+  left: -24px;
+  opacity: 0.74;
+  position: absolute;
+  top: 0px;
+  width: 475px;
+}
+
+.splash .a0445a0e12f28a692e91-vZhGO4 {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/a0445a0e12f28a692e91139cc140812c--camo-patterns-army-party.png);
+  background-size: 100% 100%;
+  height: 844px;
+  left: 24px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.splash .armeo_forces_logo-300x300-2-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/armeo-forces-logo-300x300-2@2x.png);
+  background-size: 100% 100%;
+  height: 217px;
+  left: 87px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 322px;
+  width: 217px;
+}
+
+.splash .a-hr0c-hm6-ly9z-lmlz-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/ahr0chm6ly9zlmlzyw5vb2suy29tl2nhlzavdwqvmjc3lzezody3nduvdghhawxh@2x.png);
+  background-size: 100% 100%;
+  height: 95px;
+  left: 15px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 709px;
+  width: 144px;
+}
+
+.splash .download-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/download@2x.png);
+  background-size: 100% 100%;
+  height: 95px;
+  left: 223px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 709px;
+  width: 135px;
+}
+/* screen - signin */
+
+.signin {
+  background-color: #4e5268;
+  border: 1px none;
+  cursor: pointer;
+  height: 844px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.signin .scroll-group-2-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 844px;
+  left: -25px;
+  opacity: 0.37;
+  position: absolute;
+  top: 0px;
+  width: 475px;
+}
+
+.signin .a0445a0e12f28a692e91-ROslHN {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/a0445a0e12f28a692e91139cc140812c--camo-patterns-army-party-1.png);
+  background-size: 100% 100%;
+  height: 844px;
+  left: 25px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.signin .x1024_d85b7eg89gckfib6a7cbh-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/1024-d85b7eg89gckfib6a7cbh@2x.png);
+  background-size: 100% 100%;
+  height: 165px;
+  left: 49px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 127px;
+  width: 293px;
+}
+
+.signin .rectangle-9-C61RwL {
+  --z-index: 2;
+  background-color: #1d66d4;
+  border: 1px solid;
+  border-color: #707070;
+  height: 344px;
+  left: 26px;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  position: absolute;
+  top: 392px;
+  width: 339px;
+}
+
+.signin .repeat-grid-3-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  height: 128px;
+  left: 43px;
+  opacity: 1;
+  position: absolute;
+  top: 422px;
+  width: 310px;
+}
+
+.signin .group-A1Rl2I {
+  --z-index: 0;
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 310px;
+}
+
+.signin .rectangle-11-kPJovI {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 25px;
+  height: 54px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 310px;
+}
+
+.signin .group-xCHdqh {
+  --z-index: 1;
+  background-color: transparent;
+  height: 54px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 74px;
+  width: 310px;
+}
+
+.signin .rectangle-11-xAgmEh {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 25px;
+  height: 54px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  width: 310px;
+}
+
+.signin .rectangle-12-C61RwL {
+  --z-index: 4;
+  background-color: #b7b721;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 23px;
+  height: 48px;
+  left: 108px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 647px;
+  width: 174px;
+}
+
+.signin .text_label-C61RwL {
+  --z-index: 5;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 156px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 651px;
+  width: auto;
+}
+
+.signin .rectangle-13-C61RwL {
+  --z-index: 6;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  height: 18px;
+  left: 59px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 576px;
+  width: 23px;
+}
+
+.signin .remember-C61RwL {
+  --z-index: 7;
+  -webkit-text-stroke: 1px #0d0b0b;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 89px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 571px;
+  width: auto;
+}
+
+.signin .afsc-C61RwL {
+  --z-index: 8;
+  background-color: transparent;
+  color: #c51e61;
+  font-family: 'Inter', Helvetica;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 126px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 279px;
+  width: auto;
+}
+
+.signin .rectangle-10-C61RwL {
+  --z-index: 9;
+  background-color: #bea60e;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 14px;
+  height: 54px;
+  left: 43px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 422px;
+  width: 97px;
+}
+
+.signin .rectangle-14-C61RwL {
+  --z-index: 10;
+  background-color: #bea60e;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 14px;
+  height: 54px;
+  left: 43px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 496px;
+  width: 97px;
+}
+
+.signin .si-gn-in-C61RwL {
+  --z-index: 11;
+  background-color: transparent;
+  color: #ccbb1f;
+  font-family: 'Inter', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 29px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 20px;
+  width: auto;
+}
+
+.signin .icon-user-C61RwL {
+  --z-index: 12;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/person-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 66px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 422px;
+  width: 48px;
+}
+
+.signin .key_off_fill0_wght400_grad0_opsz48-C61RwL {
+  --z-index: 13;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/key-off-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 68px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  width: 48px;
+}
+
+.signin .dont-have-an-account-C61RwL {
+  --z-index: 14;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  font-family: 'Inter', Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 88px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 724px;
+  width: auto;
+}
+
+.signin .span0-z2xMb1 {
+  color: #41cc1f;
+  font-style: normal;
+}
+
+.signin .span1-z2xMb1 {
+  color: #ccbb1f;
+  font-style: normal;
+}
+
+.signin .span2-z2xMb1 {
+  color: #cc1f42;
+  font-style: normal;
+}
+
+.signin .span3-z2xMb1 {
+  color: #ccbb1f;
+  font-style: normal;
+}
+
+.signin .span4-z2xMb1 {
+  color: #949e97;
+  font-style: normal;
+}
+
+.signin .span5-z2xMb1 {
+  color: #e3e30e;
+  font-style: normal;
+}
+/* screen - register */
+
+.register {
+  background-color: #092675;
+  border: 1px none;
+  cursor: pointer;
+  height: 844px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.register .scroll-group-3-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 844px;
+  left: -27px;
+  opacity: 0.46;
+  position: absolute;
+  top: 0px;
+  width: 475px;
+}
+
+.register .a0445a0e12f28a692e91-CEhLxm {
+  --z-index: 0;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/a0445a0e12f28a692e91139cc140812c--camo-patterns-army-party-2.png);
+  background-size: 100% 100%;
+  height: 844px;
+  left: 27px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.register .armeo_forces_logo-300x300-2-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/armeo-forces-logo-300x300-2@2x.png);
+  background-size: 100% 100%;
+  height: 217px;
+  left: 79px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 66px;
+  width: 217px;
+}
+
+.register .rectangle-5-C61RwL {
+  --z-index: 2;
+  background-color: #688384;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 23px;
+  height: 49px;
+  left: 122px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 709px;
+  width: 155px;
+}
+
+.register .repeat-grid-1-C61RwL {
+  --z-index: 3;
+  background-color: transparent;
+  height: 330px;
+  left: 20px;
+  opacity: 1;
+  position: absolute;
+  top: 345px;
+  width: 351px;
+}
+
+.register .group-mrdmCX {
+  --z-index: 0;
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-2-s3dF9K {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 19px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-6-s3dF9K {
+  --z-index: 1;
+  background-color: #aca137;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 13px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 77px;
+}
+
+.register .group-nVb0xz {
+  --z-index: 1;
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  width: 351px;
+}
+
+.register .rectangle-2-ZlfQO0 {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 19px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-6-ZlfQO0 {
+  --z-index: 1;
+  background-color: #aca137;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 13px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 77px;
+}
+
+.register .group-p2pFTD {
+  --z-index: 2;
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  width: 351px;
+}
+
+.register .rectangle-2-kqG84r {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 19px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-6-kqG84r {
+  --z-index: 1;
+  background-color: #aca137;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 13px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 77px;
+}
+
+.register .group-1P2aDE {
+  --z-index: 3;
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 210px;
+  width: 351px;
+}
+
+.register .rectangle-2-G4LkzK {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 19px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-6-G4LkzK {
+  --z-index: 1;
+  background-color: #aca137;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 13px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 77px;
+}
+
+.register .group-OqvgRO {
+  --z-index: 4;
+  background-color: transparent;
+  height: 50px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 280px;
+  width: 351px;
+}
+
+.register .rectangle-2-dc2VKX {
+  --z-index: 0;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 19px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 351px;
+}
+
+.register .rectangle-6-dc2VKX {
+  --z-index: 1;
+  background-color: #aca137;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 13px;
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 77px;
+}
+
+.register .text_label-C61RwL {
+  --z-index: 4;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 358px;
+  width: auto;
+}
+
+.register .text_label-VMr6Om {
+  --z-index: 5;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 430px;
+  width: auto;
+}
+
+.register .text_label-mzXdH9 {
+  --z-index: 6;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 502px;
+  width: auto;
+}
+
+.register .rtarfmith-C61RwL {
+  --z-index: 7;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 574px;
+  width: auto;
+}
+
+.register .password-C61RwL {
+  --z-index: 8;
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 122px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 646px;
+  width: auto;
+}
+
+.register .icon-user-C61RwL {
+  --z-index: 9;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/person-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 33px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 344px;
+  width: 48px;
+}
+
+.register .icon-user-VMr6Om {
+  --z-index: 10;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/person-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 33px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 413px;
+  width: 48px;
+}
+
+.register .icon-globe-C61RwL {
+  --z-index: 11;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/language-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 33px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 487px;
+  width: 48px;
+}
+
+.register .icon-share-C61RwL {
+  --z-index: 12;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/edit-square-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 33px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 550px;
+  width: 48px;
+}
+
+.register .key_off_fill0_wght400_grad0_opsz48-C61RwL {
+  --z-index: 13;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/key-off-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 38px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 625px;
+  width: 48px;
+}
+
+.register .text_label-QxM5SU {
+  --z-index: 14;
+  background-color: transparent;
+  color: #1a0721;
+  font-family: 'Inter', Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 178px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 712px;
+  width: auto;
+}
+
+.register .register-C61RwL {
+  --z-index: 15;
+  background-color: transparent;
+  color: #ccbb1f;
+  font-family: 'Inter', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 15px;
+  width: auto;
+}
