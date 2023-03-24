@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
+
+:root { 
+    --birch: #363325;
+    --dove-gray: #707070;
+    --licorice: #141311;
+   
+    --font-size-l: 50px;
+    --font-size-m: 26px;
+   
+    --font-family-inter: "Inter", Helvetica;
+  }
