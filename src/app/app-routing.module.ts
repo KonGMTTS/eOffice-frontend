@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Admin3Component } from './admin3/admin3.component';
+import { Admin4Component } from './admin4/admin4.component';
 import { Admin7Component } from './admin7/admin7.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: "", component: SigninComponent },
   { path: "splash", component: SplashComponent },
   { path: "admin7", component: Admin7Component },
+  { path: "admin3", component: Admin3Component },
+  { path: "admin4", component: Admin4Component },
   { path: "user1", component: User1Component },
 ];
 
