@@ -1,0 +1,810 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641be2b42207eb244e6e7c4f.641be2b535f640a2b81c51ca.W4hb4NR.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* screen - admin1 */
+
+.admin1 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 896px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 414px;
+}
+
+.admin1 .group-27-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 896px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 416px;
+}
+
+.admin1 .rectangle-1-BKbGut {
+  --z-index: 0;
+  background-color: #e7e1d5;
+  border: 1px solid;
+  border-color: #707070;
+  height: 69px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 414px;
+}
+
+.admin1 .menu_fill0_wght400_grad0_opsz48-BKbGut {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/menu-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 15px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1 .icon-notifications-BKbGut {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/notifications-active-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 263px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1 .icon-mail-BKbGut {
+  --z-index: 3;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/mark-email-unread-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 308px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1 .x272993466_3016729219-BKbGut {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/272993466-301672921997591-3836224091921039031-n@2x.png);
+  background-size: 100% 100%;
+  height: 149px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 747px;
+  width: 414px;
+}
+
+.admin1 .mask-group-7-BKbGut {
+  --z-index: 5;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/mask-group-7@2x.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 356px;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  width: 43px;
+}
+
+.admin1 .create_step1-BKbGut {
+  --z-index: 6;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/create-step1@2x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 340px;
+  left: 34px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 94px;
+  width: 346px;
+}
+
+.admin1 .group-25-BKbGut {
+  --z-index: 7;
+  background-color: transparent;
+  height: 40px;
+  left: 104px;
+  opacity: 1;
+  position: absolute;
+  top: 149px;
+  width: 229px;
+}
+
+.admin1 .rectangle-101-xI4gVk {
+  --z-index: 0;
+  background-color: #e7e1d5;
+  border-radius: 22px;
+  height: 40px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 205px;
+}
+
+.admin1 .group-24-xI4gVk {
+  --z-index: 1;
+  background-color: transparent;
+  height: 24px;
+  left: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  width: 205px;
+}
+
+.admin1 .x1-7kkzE9 {
+  --z-index: 0;
+  -webkit-text-stroke: 1px #2f84a4;
+  background-color: transparent;
+  color: #0e0e0e;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  width: auto;
+}
+
+.admin1 .rectangle-156-BKbGut {
+  --z-index: 8;
+  background-color: #f9f9f9;
+  height: 27px;
+  left: 68px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 312px;
+  width: 183px;
+}
+
+.admin1 .pdf-BKbGut {
+  --z-index: 9;
+  -webkit-text-stroke: 1px #2f84a4;
+  background-color: transparent;
+  color: #030303;
+  font-family: 'Inter', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 88px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 308px;
+  width: auto;
+}
+
+.admin1 .rectangle-2-C61RwL {
+  --z-index: 1;
+  background-color: #985da1;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 16px;
+  height: 52px;
+  left: 170px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 383px;
+  width: 96px;
+}
+
+.admin1 .text_label-C61RwL {
+  --z-index: 2;
+  -webkit-text-stroke: 1px #a3dd7d;
+  background-color: transparent;
+  color: #a3dd7d;
+  font-family: 'Inter', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 180px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 395px;
+  width: 71px;
+}
+/* screen - admin1-1 */
+
+.admin1-1 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 896px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 414px;
+}
+
+.admin1-1 .group-26-C61RwL {
+  --z-index: 0;
+  background-color: transparent;
+  height: 896px;
+  left: 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 416px;
+}
+
+.admin1-1 .rectangle-1-aRbOOb {
+  --z-index: 0;
+  background-color: #e7e1d5;
+  border: 1px solid;
+  border-color: #707070;
+  height: 69px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 414px;
+}
+
+.admin1-1 .menu_fill0_wght400_grad0_opsz48-aRbOOb {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/menu-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 15px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1-1 .icon-notifications-aRbOOb {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/notifications-active-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 263px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1-1 .icon-mail-aRbOOb {
+  --z-index: 3;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/mark-email-unread-fill0-wght400-grad0-opsz48@2x.png);
+  background-size: 100% 100%;
+  height: 48px;
+  left: 308px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  width: 48px;
+}
+
+.admin1-1 .x272993466_3016729219-aRbOOb {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/272993466-301672921997591-3836224091921039031-n@2x.png);
+  background-size: 100% 100%;
+  height: 149px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 747px;
+  width: 414px;
+}
+
+.admin1-1 .mask-group-7-aRbOOb {
+  --z-index: 5;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/mask-group-7@2x.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 356px;
+  opacity: 1;
+  position: absolute;
+  top: 15px;
+  width: 43px;
+}
+
+.admin1-1 .create_step1-aRbOOb {
+  --z-index: 6;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/create-step1@2x.png);
+  background-size: 100% 100%;
+  height: 340px;
+  left: 34px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 94px;
+  width: 346px;
+}
+
+.admin1-1 .group-25-aRbOOb {
+  --z-index: 7;
+  background-color: transparent;
+  height: 40px;
+  left: 104px;
+  opacity: 1;
+  position: absolute;
+  top: 185px;
+  width: 229px;
+}
+
+.admin1-1 .rectangle-101-wVyw7E {
+  --z-index: 0;
+  background-color: #e7e1d5;
+  border-radius: 22px;
+  height: 40px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 205px;
+}
+
+.admin1-1 .group-24-wVyw7E {
+  --z-index: 1;
+  background-color: transparent;
+  height: 24px;
+  left: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  width: 205px;
+}
+
+.admin1-1 .x1-OS0eG4 {
+  --z-index: 0;
+  -webkit-text-stroke: 1px #2f84a4;
+  background-color: transparent;
+  color: #0e0e0e;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  width: auto;
+}
+
+.admin1-1 .rectangle-156-aRbOOb {
+  --z-index: 8;
+  background-color: #f9f9f9;
+  height: 27px;
+  left: 68px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 312px;
+  width: 183px;
+}
+
+.admin1-1 .work1pdf-aRbOOb {
+  --z-index: 9;
+  -webkit-text-stroke: 1px #2f84a4;
+  background-color: transparent;
+  color: #030303;
+  font-family: 'Inter', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 77px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: 306px;
+  width: auto;
+}
+
+.admin1-1 .approve_popup_1-C61RwL {
+  --z-index: 1;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/approve-popup-1@2x.png);
+  background-size: 100% 100%;
+  height: 342px;
+  left: 31px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 105px;
+  width: 353px;
+}
+
+.admin1-1 .create_step1-C61RwL {
+  --z-index: 2;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/create-step1@2x.png);
+  background-size: 100% 100%;
+  height: 340px;
+  left: 34px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 105px;
+  width: 346px;
+}
+
+.admin1-1 .rectangle-191-C61RwL {
+  --z-index: 3;
+  background-color: #ffffff;
+  height: 320px;
+  left: 31px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 166px;
+  width: 374px;
+}
+
+.admin1-1 .pdf-C61RwL {
+  --z-index: 4;
+  background-color: transparent;
+  background-image: url(https://cdn.animaapp.com/projects/641be2b6d90857335b3b6bd5/releases/641be39b16866ff49c2b0abe/img/pdf.png);
+  background-size: 100% 100%;
+  height: 115px;
+  left: 24px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 260px;
+  width: 366px;
+}
+
+.admin1-1 .group-25-C61RwL {
+  --z-index: 5;
+  background-color: transparent;
+  height: 40px;
+  left: 104px;
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  width: 229px;
+}
+
+.admin1-1 .rectangle-101-StUjmZ {
+  --z-index: 0;
+  background-color: #e7e1d5;
+  border-radius: 22px;
+  height: 40px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  width: 205px;
+}
+
+.admin1-1 .group-24-StUjmZ {
+  --z-index: 1;
+  background-color: transparent;
+  height: 24px;
+  left: 26px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  width: 205px;
+}
+
+.admin1-1 .x1-JE1pWx {
+  --z-index: 0;
+  -webkit-text-stroke: 1px #2f84a4;
+  background-color: transparent;
+  color: #0e0e0e;
+  font-family: 'Inter', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: left;
+  top: -1px;
+  width: auto;
+}
+
+.admin1-1 .rectangle-2-C61RwL {
+  --z-index: 6;
+  background-color: #985da1;
+  border: 1px solid;
+  border-color: #707070;
+  border-radius: 16px;
+  height: 52px;
+  left: 159px;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  width: 96px;
+}
+
+.admin1-1 .text_label-C61RwL {
+  --z-index: 7;
+  -webkit-text-stroke: 1px #a3dd7d;
+  background-color: transparent;
+  color: #a3dd7d;
+  font-family: 'Inter', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 158px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 1;
+  position: absolute;
+  text-align: center;
+  top: 412px;
+  width: 71px;
+}

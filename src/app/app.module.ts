@@ -11,6 +11,7 @@ import { SplashComponent } from './splash/splash.component';
 import { Admin7Component } from './admin7/admin7.component';
 import { User1Component } from './user1/user1.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
