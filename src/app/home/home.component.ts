@@ -1,13 +1,11 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-home",
-  templateUrl: "./home.component.html",
-  styleUrls: ["./home.component.scss"],
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
-  userData: any;
-  actionNumber: number = 0;
+export class HomeComponent {
   constructor() { }
 
   ngOnInit(): void {
@@ -15,10 +13,22 @@ export class HomeComponent implements OnInit {
 
   openNav() {
     //ความกว้างของ slide menu
-    //document.getElementById("mySidenav").style.width = "300px";
+    const mySidenav = document.getElementById(
+      'mySidenav',
+    ) as HTMLInputElement | null;
+
+    if (mySidenav != null) {
+      mySidenav.style.width = "250px";
+    }
   }
 
   closeNav() {
-    //document.getElementById("mySidenav").style.width = "0";
+    const mySidenav = document.getElementById(
+      'mySidenav',
+    ) as HTMLInputElement | null;
+
+    if (mySidenav != null) {
+      mySidenav.style.width = "0";
+    }
   }
 }

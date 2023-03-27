@@ -3,17 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400");
 
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
-<<<<<<< HEAD
 @import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
-=======
-@import url("https://px.animaapp.com/641bb98b4bdb47f658cfbda5.641bb98ca313ddb7c65285f7.yF3WHGS.hch.png");
->>>>>>> origin/thanasit
 
 
-.screen textarea:focus,
-.screen input:focus {
-  outline: none;
-}
 
 .screen * {
   -webkit-font-smoothing: antialiased;
@@ -196,7 +188,6 @@ input:focus {
   box-sizing: border-box;
 }
 :root { 
-<<<<<<< HEAD
   --birch: #363325;
   --dove-gray: #707070;
   --licorice: #141311;
@@ -207,51 +198,13 @@ input:focus {
 }
 .inter-normal-licorice-26px {
   color: var(--licorice);
-=======
-  --baby-powder: #fcfcfc;
-  --black: #000000;
-  --black-2: #00000096;
-  --dove-gray: #707070;
-  --spring-green: #1cf36b99;
-  --white: #ffffff;
- 
-  --font-size-l: 30px;
-  --font-size-m: 20px;
-  --font-size-xl: 32px;
-  --font-size-xxl: 35px;
-  --font-size-xxxl: 40px;
-  --font-size-xxxxl: 45px;
- 
-  --font-family-inter: "Inter", Helvetica;
-}
-.inter-normal-black-35px {
-  color: var(--black-2);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.inter-normal-baby-powder-32px {
-  color: var(--baby-powder);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.inter-normal-black-20px {
-  color: var(--black);
->>>>>>> origin/thanasit
   font-family: var(--font-family-inter);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
 
-<<<<<<< HEAD
-:root {
-}
+
 
 
 /* screen - menu */
@@ -260,24 +213,6 @@ input:focus {
   background-color: transparent;
   border: 1px none;
   cursor: pointer;
-=======
-.inter-normal-white-45px {
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-
-
-
-/* screen - menu */
-
-.menu {
-  background-color: #a8a8a8;
-  border: 1px none;
->>>>>>> origin/thanasit
   height: 844px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -286,7 +221,6 @@ input:focus {
   width: 390px;
 }
 
-<<<<<<< HEAD
 .menu .rectangle-351-Cx8dt7 {
   background-color: #808882;
   border: 1px solid;
@@ -437,36 +371,6 @@ input:focus {
 .menu .x052c71e2dfefe038d832ec2d7acbf856-Cx8dt7 {
   background-color: transparent;
   height: 390px;
-=======
-.menu .title-Cx8dt7 {
-  -webkit-text-stroke: 1px var(--dove-gray);
-  background-color: transparent;
-  height: auto;
-  left: 76px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 12px;
-  width: auto;
-}
-
-.menu .image-2-Cx8dt7 {
-  background-color: transparent;
-  height: 293px;
-  left: 18px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 290px;
-  width: 355px;
-}
-
-.menu .image-3-Cx8dt7 {
-  background-color: transparent;
-  height: 844px;
->>>>>>> origin/thanasit
   left: 0px;
   mix-blend-mode: normal;
   object-fit: cover;
@@ -475,7 +379,6 @@ input:focus {
   width: 390px;
 }
 
-<<<<<<< HEAD
 .menu .images-1-Cx8dt7 {
   background-color: transparent;
   height: 77px;
@@ -507,159 +410,12 @@ input:focus {
   mix-blend-mode: normal;
   position: absolute;
   top: 795px;
-=======
-.menu .image-1-Cx8dt7 {
-  background-color: transparent;
-  height: 84px;
-  left: 0px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 61px;
-  width: 390px;
-}
-
-.menu .rectangle-15-Cx8dt7 {
-  background-color: #e504e538;
-  border: 1px solid;
-  border-color: var(--dove-gray);
-  height: 844px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 267px;
-}
-
-.menu .text_label-Cx8dt7 {
-  left: 15px;
-  top: 415px;
-}
-
-.menu .x-Cx8dt7 {
-  -webkit-text-stroke: 1px var(--dove-gray);
-  background-color: transparent;
-  height: auto;
-  left: 12px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 325px;
-  width: 343px;
-}
-
-.menu .text_label-WCLPdV {
-  left: 19px;
-  top: 265px;
-}
-
-.menu .text_label-gU84Zr {
-  left: 19px;
-  top: 194px;
-}
-
-.menu .text_label-brqTa1 {
-  left: 55px;
-  top: 123px;
-}
-
-.menu .home_fill0_wght400_grad0_opsz48-Cx8dt7 {
-  background-color: transparent;
-  height: 48px;
-  left: -909px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 760px;
-  width: 48px;
-}
-
-.menu .group-2-Cx8dt7 {
-  background-color: transparent;
-  cursor: pointer;
-  height: 54px;
-  left: 11px;
-  position: absolute;
-  top: 529px;
-  width: 266px;
-}
-
-.menu .text_label-Q0lpMp {
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 400;
-  left: 50px;
-  text-decoration: underline;
-  top: -1px;
-}
-
-.menu .icon-close-Q0lpMp {
-  height: 48px;
-  left: 0px;
-  top: 6px;
-  width: 48px;
-}
-
-.menu .text_label-sxKz5E {
-  color: #ff0000;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-  left: 67px;
-  top: 469px;
-}
-
-.menu .icon-settings-Cx8dt7 {
-  background-color: transparent;
-  height: 48px;
-  left: 8px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 471px;
-  width: 48px;
-}
-
-.menu .menu_fill0_wght400_grad0_opsz48-Cx8dt7 {
-  background-color: transparent;
-  height: 48px;
-  left: 8px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 22px;
-  width: 48px;
-}
-
-.menu .icon-close-Cx8dt7 {
-  height: 30px;
-  left: 230px;
-  top: 16px;
-  width: 30px;
-}
-
-.menu .rectangle-14-Cx8dt7 {
-  background-color: #1c2bff9e;
-  border: 1px solid;
-  border-color: var(--white);
-  height: 52px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 792px;
->>>>>>> origin/thanasit
   width: 390px;
 }
 
 .menu .icon-home-Cx8dt7 {
   background-color: transparent;
   height: 48px;
-<<<<<<< HEAD
   left: 171px;
   mix-blend-mode: normal;
   object-fit: cover;
@@ -670,113 +426,13 @@ input:focus {
 
 .menu .text_label {
   -webkit-text-stroke: 1px var(--birch);
-=======
-  left: 44px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 793px;
-  width: 48px;
-}
-
-.menu .local_library_fill0_wght400_grad0_opsz48-Cx8dt7 {
-  background-color: transparent;
-  height: 47px;
-  left: 138px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 794px;
-  width: 47px;
-}
-
-.menu .co_present_fill0_wght400_grad0_opsz48-Cx8dt7 {
-  background-color: transparent;
-  height: 48px;
-  left: 332px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 793px;
-  width: 48px;
-}
-
-.menu .inventory_2_fill0_wght400_grad0_opsz48-Cx8dt7 {
-  background-color: transparent;
-  height: 48px;
-  left: 236px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 794px;
-  width: 48px;
-}
-
-.menu .rectangle-17-Cx8dt7 {
-  background-color: #fc0000;
-  border: 1px solid;
-  border-color: #ff0000;
-  border-radius: 11px;
-  height: 30px;
-  left: 253px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 197px;
-  width: 31px;
-}
-
-.menu .x3-Cx8dt7 {
-  -webkit-text-stroke: 1px var(--dove-gray);
-  background-color: transparent;
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 259px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: center;
-  top: 189px;
-  width: auto;
-}
-
-.menu .outline_add_comment_black_24dp-Cx8dt7 {
-  background-color: transparent;
-  height: 35px;
-  left: 11px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 140px;
-  width: 35px;
-}
-
-.menu .icon-close {
-  background-color: transparent;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-}
-
-.menu .text_label {
-  -webkit-text-stroke: 1px var(--dove-gray);
->>>>>>> origin/thanasit
   background-color: transparent;
   height: auto;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
-<<<<<<< HEAD
   opacity: 0.96;
   position: absolute;
   text-align: right;
-=======
-  position: absolute;
-  text-align: left;
->>>>>>> origin/thanasit
   width: auto;
 }
