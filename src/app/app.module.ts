@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { SplashComponent } from './splash/splash.component';
 import { Admin3Component } from './admin3/admin3.component';
 import { Admin4Component } from './admin4/admin4.component';
+import { MenuComponent } from './menu/menu.component';
+import { User3Component } from './user3/user3.component';
+import { User4Component } from './user4/user4.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { Admin4Component } from './admin4/admin4.component';
     LoginComponent,
     SplashComponent,
     Admin3Component,
-    Admin4Component
+    Admin4Component,
+    MenuComponent,
+    User3Component,
+    User4Component
   ],
   imports: [
     BrowserModule,
