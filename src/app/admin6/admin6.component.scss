@@ -1,0 +1,451 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
+
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.component-wrapper a {
+  display: contents;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.component-wrapper * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe {
+  pointer-events: auto;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-vertical {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  pointer-events: none;
+}
+
+.container-center-vertical > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.auto-animated div {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated input {
+  --z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay-base {
+  display: none;
+  height: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.overlay-base.animate-appear {
+  align-items: center;
+  animation: reveal 0.3s ease-in-out 1 normal forwards;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.overlay-base.animate-disappear {
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+  display: block;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.overlay-base.animate-disappear * {
+  pointer-events: none;
+}
+
+@keyframes reveal {
+  from { opacity: 0 }
+ to { opacity: 1 }
+}
+
+.animate-nodelay {
+  animation-delay: 0s;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+:root { 
+  --astral: #2f84a4;
+  --dove-gray: #707070;
+  --white: #ffffff;
+ 
+  --font-size-l: 35px;
+  --font-size-m: 30px;
+  --font-size-s: 28px;
+  --font-size-xs: 12px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+:root {
+}
+
+
+/* screen - admin6 */
+
+.admin6 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 844px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+.admin6 .rectangle-174-wTYrxP {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.admin6 .icon-download_arrow-wTYrxP {
+  background-color: transparent;
+  height: 48px;
+  left: 241px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 48px;
+}
+
+.admin6 .assistant_direction_-wTYrxP {
+  background-color: transparent;
+  height: 48px;
+  left: 113px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 48px;
+}
+
+.admin6 .rectangle-175-wTYrxP {
+  background-color: #d81010;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 50px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.admin6 .rectangle-100-wTYrxP {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 582px;
+  left: 7px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 178px;
+  width: 375px;
+}
+
+.admin6 .approve_popup-wTYrxP {
+  background-color: transparent;
+  height: 257px;
+  left: 18px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 262px;
+  width: 341px;
+}
+
+.admin6 .rectangle-164-wTYrxP {
+  background-color: #ae000c;
+  height: 77px;
+  left: 7px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 262px;
+  width: 375px;
+}
+
+.admin6 .receiver-wTYrxP {
+  background-color: transparent;
+  height: 129px;
+  left: 18px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 339px;
+  width: 372px;
+}
+
+.admin6 .group-38-wTYrxP {
+  background-color: transparent;
+  height: 44px;
+  left: 227px;
+  position: absolute;
+  top: 467px;
+  width: 126px;
+}
+
+.admin6 .rectangle-161-a9MdsJ {
+  background-color: #e53001;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 4px;
+  height: 43px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 124px;
+}
+
+.admin6 .text_label-a9MdsJ {
+  color: #ecf1ed;
+  font-size: var(--font-size-s);
+  left: 10px;
+  top: -1px;
+}
+
+.admin6 .next-a9MdsJ {
+  background-color: transparent;
+  height: 29px;
+  left: 70px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 26px;
+}
+
+.admin6 .text_label-wTYrxP {
+  color: #f5f8f5;
+  font-size: var(--font-size-l);
+  left: 62px;
+  top: 270px;
+}
+
+.admin6 .icon-user-wTYrxP {
+  background-color: transparent;
+  height: 44px;
+  left: 19px;
+  position: absolute;
+  top: 278px;
+  width: 44px;
+}
+
+.admin6 .text-wTYrxP {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
+  color: #000000;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: -1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: -2px;
+  width: auto;
+}
+
+.admin6 .rectangle-166-wTYrxP {
+  background-color: var(--white);
+  height: 31px;
+  left: 30px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 367px;
+  width: 184px;
+}
+
+.admin6 .text_label-NeLQzx {
+  color: #676e67;
+  font-size: var(--font-size-m);
+  left: 33px;
+  top: 358px;
+}
+
+.admin6 .mark_as_unread_fill0-wTYrxP {
+  background-color: transparent;
+  height: 48px;
+  left: 241px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 48px;
+}
+
+.admin6 .icon-home {
+  background-color: transparent;
+  height: 48px;
+  left: 3px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 48px;
+}
+
+.admin6 .menu_fill0_wght400_grad0_opsz48 {
+  background-color: transparent;
+  height: 48px;
+  left: 336px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 48px;
+}
+
+.admin6 .text_label {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
+  font-family: var(--font-family-inter);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  width: auto;
+}
