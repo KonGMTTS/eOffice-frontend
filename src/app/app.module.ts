@@ -13,6 +13,8 @@ import { User1Component } from './user1/user1.component';
 import { Admin5Component } from './admin5/admin5.component';
 import { Admin6Component } from './admin6/admin6.component';
 import { MenuComponent } from './menu/menu.component';
+import { User2Component } from './user2/user2.component';
+import { User5Component } from './user5/user5.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { MenuComponent } from './menu/menu.component';
     User1Component,
     Admin5Component,
     Admin6Component,
-    MenuComponent
+    MenuComponent,
+    User2Component,
+    User5Component
   ],
   imports: [
     BrowserModule,

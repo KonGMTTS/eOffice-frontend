@@ -13,8 +13,10 @@ import { RegisterComponent } from './register/register.component';
 import { SigninComponent } from './signin/signin.component';
 import { SplashComponent } from './splash/splash.component';
 import { User1Component } from './user1/user1.component';
+import { User2Component } from './user2/user2.component';
 import { User3Component } from './user3/user3.component';
 import { User4Component } from './user4/user4.component';
+import { User5Component } from './user5/user5.component';
 
 const routes: Routes = [
   // { path: "home", component: HomeComponent },
@@ -24,8 +26,10 @@ const routes: Routes = [
   { path: "", component: SigninComponent },
   { path: "splash", component: SplashComponent },
   { path: "user1", component: User1Component },
+  { path: "user2", component: User2Component },
   { path: "user3", component: User3Component },
   { path: "user4", component: User4Component },
+  { path: "user5", component: User5Component },
   { path: "admin1", component: Admin1Component },
   { path: "admin2", component: Admin2Component },
   { path: "admin3", component: Admin3Component },
