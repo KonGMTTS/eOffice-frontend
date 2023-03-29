@@ -15,6 +15,7 @@ import { Admin6Component } from './admin6/admin6.component';
 import { MenuComponent } from './menu/menu.component';
 import { User2Component } from './user2/user2.component';
 import { User5Component } from './user5/user5.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -35,7 +36,9 @@ import { User5Component } from './user5/user5.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
