@@ -18,12 +18,12 @@ export class SigninComponent {
 
   signin() {
     let data = {
-      "userEmail": this.nameForm.get('email')?.value,
+      "rtarfEmail": this.nameForm.get('email')?.value,
       "Password": this.nameForm.get('password')?.value
     }
     console.log(data);
 
-    axios.get("http://10.104.6.212:1337/api/rtarf-user-register-g1s?filters[userEmail][$eq]=" + this.nameForm.get('email')?.value).then(res => {
+    axios.get("http://10.104.6.212:1337/api/rtarf-user-register-g2s?filters[rtarfEmail][$eq]=" + this.nameForm.get('email')?.value).then(res => {
       console.log(res.data);
     })
   }
