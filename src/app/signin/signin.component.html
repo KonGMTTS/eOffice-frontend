@@ -1,5 +1,5 @@
-<div class="auto-animated screen signin"
-  onclick="Lib.autoanim_redirect('splash,splash%23signin,,linear,200.00000298023224;signin,home,,,;register,home,,,', event)"
+<div [formGroup]="nameForm" class="auto-animated screen signin"
+
   onmouseover="" data-id="1:987" data-page="splash" data-screens="splash,signin,register" style="opacity: 1;">
   <div class="armeo_forces_logo-300x300-2-C61RwL" data-id="1:989"></div>
   <div class="scroll-group-1-C61RwL" data-id="1:992">
@@ -49,14 +49,18 @@
   <div class="rectangle-9-C61RwL" data-id="1:298"></div>
   <div class="repeat-grid-3-C61RwL" data-id="1:315">
     <div class="group-A1Rl2I" data-id="1:313">
-      <div class="rectangle-11-kPJovI" data-id="1:299"></div>
+      <div class="rectangle-11-kPJovI" data-id="1:299">
+        <input formControlName="email" placeholder="email" style="margin-left: 106px;height: 47px; opacity: 1;"></div>
+      
     </div>
     <div class="group-xCHdqh" data-id="1:314">
-      <div class="rectangle-11-xAgmEh" data-id="1:300"></div>
+      <div class="rectangle-11-xAgmEh" data-id="1:300">
+        <input formControlName="password" placeholder="password" style="margin-left: 106px;height: 47px; opacity: 1;"></div>
+      
     </div>
   </div>
   <div class="rectangle-12-C61RwL" data-id="1:301"></div>
-  <div class="text_label-C61RwL" data-id="1:302"><a href="home">เข้าสู่ระบบ</a></div>
+  <div class="text_label-C61RwL" data-id="1:302" (click)="signin()">เข้าสู่ระบบ</div>
   <div class="rectangle-13-C61RwL" data-id="1:303"></div>
   <div class="remember-C61RwL" data-id="1:304">REMEMBER</div>
   <h1 class="afsc-C61RwL" data-id="1:305">AFSC</h1>
@@ -66,7 +70,7 @@
   <div class="icon-user-C61RwL" data-id="1:309"></div>
   <div class="key_off_fill0_wght400_grad0_opsz48-C61RwL" data-id="1:310"></div>
   <div class="dont-have-an-account-C61RwL"
-    onclick="Lib.autoanim_redirect('%2A,splash%23register,,linear,200.00000298023224', event)" onmouseover=""
+    
     data-id="1:311"><span class="span0-z2xMb1">Don't Have an account?<br></span><span
       class="span1-z2xMb1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
       class="span2-z2xMb1"> <a href="register">Register</a><br></span><span
