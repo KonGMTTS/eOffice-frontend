@@ -25,7 +25,11 @@ export class SigninComponent {
 
     axios.get("http://10.104.6.212:1337/api/rtarf-user-register-g2s?filters[rtarfmail][$eq]=" + this.nameForm.get('email')?.value).then(res => {
       console.log(res.data);
-
+      if (res.data.data.length > 0) {
+        window.location.href = "/home"
+      } else {
+        alert("email หรือรหัสผ่านผิด")
+      }
     })
   }
 }
