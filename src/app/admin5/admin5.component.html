@@ -178,7 +178,7 @@
         anima-src="https://cdn.animaapp.com/projects/641bb9664a76e2d4ea229ad0/releases/641bbec32207eb244e6e7bc8/img/next@2x.png"
         alt="next">
     </div>
-  </a><form style="position: absolute; opacity: 1; top: 415px; left: 9px;" [formGroup]="myForm" (ngSubmit)="submit()">
+  </a><form style="position: absolute; opacity: 1; top: 415px; left: 9px; text-align: center;" [formGroup]="myForm" (ngSubmit)="submit()">
     <select multiple formControlName="userSelected"style= "width: 220px; height: 90px;">
       <option *ngFor="let user of userList; index as i; first as isFirst" [ngValue]="user">{{i+1}}.{{user.firstname}}</option>
     </select>
