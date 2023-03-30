@@ -31,9 +31,9 @@ export class RegisterComponent {
     axios.post("http://10.104.6.212:1337/api/rtarf-user-register-g2s", { data: data }).then(res => {
       console.log(res.data);
       this.nameForm.reset();
-    })
 
 
 
+    });
   }
 }
