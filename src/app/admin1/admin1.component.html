@@ -34,8 +34,7 @@
     <div class="icon-mail-BKbGut" data-id="2601:11275"></div>
     <div class="x272993466_3016729219-BKbGut" data-id="2601:11276"></div>
     <div class="mask-group-7-BKbGut" data-id="2601:11289"></div>
-    <div class="create_step1-BKbGut"
-      onclick="Lib.autoanim_redirect('%2A,admin1%23admin1-1,,ease-out,300.00001192092896', event)" onmouseover=""
+    <div class="create_step1-BKbGut" 
       data-id="2601:11281"></div>
     <div class="group-25-BKbGut" data-id="2601:11291">
       <div class="rectangle-101-xI4gVk" data-id="2601:11282"></div>
@@ -48,4 +47,25 @@
   </div>
   <div class="rectangle-2-C61RwL" data-id="2601:11286"></div>
   <div class="text_label-C61RwL" data-id="2601:11287"><a href="admin2">ถัดไป</a></div>
+  <form [formGroup]="myForm" style="position: absolute;opacity: 1;"  (ngSubmit)="uploadFile()">
+    <div class="form-group" style="opacity: 1;">
+        <label for="file" style="opacity: 1;">File</label>
+        <input  style="opacity: 1;"
+            formControlName="file"
+            id="file" 
+            type="file" 
+            class="form-control"
+            (change)="onFileChange($event)">
+    </div>
+          
+    <button style="margin: 25px;" class="btn btn-primary" type="submit">Submit</button>
+  </form>
+  <div style="opacity: 1;  top: 72px;  left: 20px;">
+    <ul>
+      <li *ngFor="let myFile of files; index as i; first as isFirst">
+        {{i}}.{{myFile}}
+      </li>
+  </ul>
+  </div>
+  
 </div>
