@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import axios from 'axios';
+
+
 @Component({
   selector: 'app-admin1',
   templateUrl: './admin1.component.html',
@@ -14,6 +15,7 @@ export class Admin1Component {
   });
 
   files: Array<any> = [];
+  fileId: Array<any> = [];
 
   constructor() { }
 
@@ -42,9 +44,11 @@ export class Admin1Component {
       console.log(res.data);
       let file = res.data[0]
       this.files.push(file.name)
+      this.fileId.push(file.id)
+      localStorage.setItem('files', JSON.stringify(this.fileId))
+
     }).catch(error => {
       console.log(error.message);
     });
   }
-
 }
