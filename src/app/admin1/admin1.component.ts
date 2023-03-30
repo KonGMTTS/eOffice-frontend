@@ -15,6 +15,7 @@ export class Admin1Component {
   });
 
   files: Array<any> = [];
+  fileId: Array<any> = [];
 
   constructor() { }
 
@@ -43,6 +44,8 @@ export class Admin1Component {
       console.log(res.data);
       let file = res.data[0]
       this.files.push(file.name)
+      this.fileId.push(file.id)
+      localStorage.setItem('files', JSON.stringify(this.fileId))
     }).catch(error => {
       console.log(error.message);
     });
