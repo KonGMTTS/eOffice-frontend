@@ -16,6 +16,7 @@ import { MenuComponent } from './menu/menu.component';
 import { User2Component } from './user2/user2.component';
 import { User5Component } from './user5/user5.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Admin1Component } from './admin1/admin1.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     RegisterComponent,
     SigninComponent,
     LoginComponent,
+    Admin1Component,
     SplashComponent,
     Admin7Component,
     User1Component,
