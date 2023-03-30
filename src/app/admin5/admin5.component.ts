@@ -46,6 +46,7 @@ export class Admin5Component {
     }
     console.log(data);
 
+
     axios.post("http://10.104.6.212:1337/api/rtarf-doc-g2s", { data: data }).then(res => {
       console.log(res.data.data);
     })
