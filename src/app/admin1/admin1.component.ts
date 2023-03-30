@@ -36,6 +36,7 @@ export class Admin1Component {
     }
   }
 
+
   uploadFile() {
     const formData = new FormData();
     formData.append('files', this.myForm.get('fileSource')?.value || '{}');
