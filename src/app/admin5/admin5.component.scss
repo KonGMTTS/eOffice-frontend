@@ -730,4 +730,14 @@ input:focus {
   position: absolute;
   text-align: left;
   width: auto;
+
+}
+.btn.btn-primary {
+  background-color: #07ecec73;
+  width: 100px;
+  height: 50px;
+  color: #535653;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
 }
