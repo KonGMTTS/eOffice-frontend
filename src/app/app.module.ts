@@ -8,6 +8,14 @@ import { RegisterComponent } from './register/register.component';
 import { SigninComponent } from './signin/signin.component';
 import { LoginComponent } from './login/login.component';
 import { SplashComponent } from './splash/splash.component';
+import { Admin7Component } from './admin7/admin7.component';
+import { User1Component } from './user1/user1.component';
+import { Admin5Component } from './admin5/admin5.component';
+import { Admin6Component } from './admin6/admin6.component';
+import { MenuComponent } from './menu/menu.component';
+import { User2Component } from './user2/user2.component';
+import { User5Component } from './user5/user5.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,11 +26,20 @@ import { SplashComponent } from './splash/splash.component';
     SigninComponent,
     LoginComponent,
     SplashComponent,
-
+    Admin7Component,
+    User1Component,
+    Admin5Component,
+    Admin6Component,
+    MenuComponent,
+    User2Component,
+    User5Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

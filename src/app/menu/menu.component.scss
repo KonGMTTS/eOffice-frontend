@@ -6,10 +6,6 @@
 @import url("https://px.animaapp.com/641bb964e6fb3205cdfe66b2.641bb965e6fb3205cdfe66b5.rS9wbZF.hch.png");
 
 
-.screen textarea:focus,
-.screen input:focus {
-  outline: none;
-}
 
 .screen * {
   -webkit-font-smoothing: antialiased;
@@ -196,7 +192,6 @@ input:focus {
   --dove-gray: #707070;
   --licorice: #141311;
  
-  --font-size-l: 50px;
   --font-size-m: 26px;
  
   --font-family-inter: "Inter", Helvetica;
@@ -211,9 +206,10 @@ input:focus {
 
 
 
-/* screen - home */
 
-.home {
+/* screen - menu */
+
+.menu {
   background-color: transparent;
   border: 1px none;
   cursor: pointer;
@@ -225,22 +221,35 @@ input:focus {
   width: 390px;
 }
 
-.home .path-106-C61RwL {
+.menu .rectangle-351-Cx8dt7 {
+  background-color: #808882;
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  height: 312px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.62;
+  position: absolute;
+  top: 405px;
+  width: 266px;
+}
+
+.menu .path-110-Cx8dt7 {
   background-color: transparent;
   height: 844px;
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 134px;
+  width: 133px;
 }
 
-.home .rectangle-162-C61RwL {
+.menu .rectangle-348-Cx8dt7 {
   background-color: #0707eced;
   border: 1px solid;
   border-color: var(--dove-gray);
   height: 844px;
-  left: 134px;
+  left: 133px;
   mix-blend-mode: normal;
   opacity: 0.39;
   position: absolute;
@@ -248,12 +257,12 @@ input:focus {
   width: 133px;
 }
 
-.home .rectangle-163-C61RwL {
+.menu .rectangle-349-Cx8dt7 {
   background-color: #07c5eced;
   border: 1px solid;
   border-color: var(--dove-gray);
   height: 844px;
-  left: 267px;
+  left: 266px;
   mix-blend-mode: normal;
   opacity: 0.39;
   position: absolute;
@@ -261,77 +270,153 @@ input:focus {
   width: 129px;
 }
 
-.home .text_label-C61RwL {
-  -webkit-text-stroke: 1px #16366e;
+.menu .text_label-Cx8dt7 {
+  left: 78px;
+  top: 405px;
+}
+
+.menu .text_label-WCLPdV {
+  left: 95px;
+  top: 446px;
+}
+
+.menu .text_label-gU84Zr {
+  left: 95px;
+  top: 538px;
+}
+
+.menu .x-Cx8dt7 {
+  -webkit-text-stroke: 1px var(--birch);
   background-color: transparent;
-  color: #232724;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 500;
   height: auto;
-  left: 2px;
+  left: 95px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
+  opacity: 0.96;
   position: absolute;
-  text-align: center;
-  top: 365px;
+  text-align: right;
+  top: 586px;
   width: auto;
 }
 
-.home .rectangle-3-C61RwL {
+.menu .text_label-brqTa1 {
+  left: 95px;
+  top: 634px;
+}
+
+.menu .icon-refresh-Cx8dt7 {
+  background-color: transparent;
+  height: 25px;
+  left: 52px;
+  position: absolute;
+  top: 593px;
+  width: 25px;
+}
+
+.menu .mask-group-16-Cx8dt7 {
+  background-color: transparent;
+  height: 25px;
+  left: 54px;
+  position: absolute;
+  top: 414px;
+  width: 25px;
+}
+
+.menu .icon-mail-Cx8dt7 {
+  background-color: transparent;
+  height: 25px;
+  left: 52px;
+  position: absolute;
+  top: 456px;
+  width: 25px;
+}
+
+.menu .signa-Cx8dt7 {
+  background-color: transparent;
+  height: 26px;
+  left: 53px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 546px;
+  width: 27px;
+}
+
+.menu .text_label-sxKz5E {
+  left: 95px;
+  top: 490px;
+}
+
+.menu .mask-group-50-Cx8dt7 {
+  background-color: transparent;
+  height: 30px;
+  left: 52px;
+  position: absolute;
+  top: 497px;
+  width: 30px;
+}
+
+.menu .paperless-Cx8dt7 {
+  background-color: transparent;
+  height: 32px;
+  left: 46px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 639px;
+  width: 37px;
+}
+
+.menu .x052c71e2dfefe038d832ec2d7acbf856-Cx8dt7 {
+  background-color: transparent;
+  height: 390px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 390px;
+}
+
+.menu .images-1-Cx8dt7 {
+  background-color: transparent;
+  height: 77px;
+  left: 315px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 164px;
+  width: 67px;
+}
+
+.menu .images-Cx8dt7 {
+  background-color: transparent;
+  height: 75px;
+  left: 158px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 315px;
+  width: 75px;
+}
+
+.menu .rectangle-350-Cx8dt7 {
   background-color: #ffffff;
   border: 1px solid;
   border-color: var(--dove-gray);
   height: 50px;
-  left: 0px;
+  left: -1px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 794px;
+  top: 795px;
   width: 390px;
 }
 
-.home .menu_fill0_wght400_grad0_opsz48-C61RwL {
-  background-color: transparent;
-  cursor: pointer;
-  height: 48px;
-  left: 336px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 794px;
-  width: 48px;
-}
-
-.home .icon-home-C61RwL {
-  background-color: transparent;
-  cursor: pointer;
-  height: 48px;
-  left: 3px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 795px;
-  width: 48px;
-}
-
-.home .assistant_direction_-C61RwL {
-  background-color: transparent;
-  cursor: pointer;
-  height: 48px;
-  left: 113px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 795px;
-  width: 48px;
-}
-
-.home .mark_as_unread_fill0-C61RwL {
+.menu .icon-home-Cx8dt7 {
   background-color: transparent;
   height: 48px;
-  left: 239px;
+  left: 171px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
@@ -339,24 +424,15 @@ input:focus {
   width: 48px;
 }
 
-.home .armeo_forces_logo-300x300-2-C61RwL {
+.menu .text_label {
+  -webkit-text-stroke: 1px var(--birch);
   background-color: transparent;
-  height: 272px;
-  left: 59px;
+  height: auto;
+  letter-spacing: 0.00px;
+  line-height: normal;
   mix-blend-mode: normal;
-  object-fit: cover;
+  opacity: 0.96;
   position: absolute;
-  top: 74px;
-  width: 272px;
-}
-
-.home .images-C61RwL {
-  background-color: transparent;
-  height: 65px;
-  left: 163px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 660px;
-  width: 65px;
+  text-align: right;
+  width: auto;
 }
