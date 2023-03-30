@@ -179,4 +179,12 @@
         alt="next">
     </div>
   </a>
+  <form style="position: absolute; opacity: 1; top: 50px; left: 60px;" [formGroup]="myForm" (ngSubmit)="submit()">
+    <select multiple formControlName="userSelected" style="width: 200px; height: 100px;">
+      <option *ngFor="let user of userList; index as i; first as isFirst" [ngValue]="user">{{i+1}}.{{user.firstname}}</option>
+    </select>
+  <br>
+  <br>
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
 </div>
